@@ -1,0 +1,64 @@
+html
+    header
+        title
+        +
+        simple-advanced
+        theme
+    main
+        textBox
+        keys
+        +
+        extra textBoxes
+    footer
+        thanks to the odin project
+        link to github
+
+
+css
+    different colors
+    
+
+
+js
+    operations
+        add
+        sub
+        multiply
+        divide
+        *
+        pow
+        mod
+        log
+        rad
+        fact
+        abs
+        negative
+        percent
+    
+    operate / equals
+
+    functions / features
+        clear
+        +
+        floating point
+        backspace
+        keyboard
+        priority
+        parentheses
+    
+    constants
+        pi
+        e
+
+    textBox
+        overflow
+        +
+        copy
+    
+    errors
+        divide by 0
+        equals before meaningful input
+
+
+
+
