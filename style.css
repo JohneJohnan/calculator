@@ -56,58 +56,47 @@ body {
 #calc {
     border: 2px solid black;
     border-radius: 4px;
-    padding: 0.25rem;
+    padding: 0.4rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 40%;
-    height: 40%;
+    width: 16rem;
+    height: 20rem;
 }
 
 #display {
-    flex: 2 1 auto;
+    width: 99%;
+    flex: 1 5 0;
+    margin-bottom: 4px;
 }
+
 #keys {
-    margin: 0.2rem;
-    flex: 5 1 auto;
-}
-#keys div {
+    flex: 5 1 0;
     display: flex;
-    justify-content: center;
-    flex: 1 1 auto;
-}
-.top.row {
-    height: 20%;
-}
-#bottomRows {
-    height: 80%;
-}
-#keys button {
-    font-size: large;
-    /* padding: 0.5rem 0; */
-    flex: 1 1 0;
-    margin: 0.05rem;
-}
-.column {
-    flex-direction: column;
     width: 100%;
+    gap: 2px;
 }
-#leftColumns {
-    /* flex: 3 1 0; */
-    width: 66.7%;
+
+.column {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
 }
-.right.column {
-    /* flex: 1 1 0; */
-    width: 33.3%;
+
+button {
+    flex: 1 1 0;
+
 }
-#digits {
-    height:75%;
+
+#kEquals {
+    flex: 2.13 0.5 0;
 }
-.bottom.row {
-    height: 25%;
-}
-#keys #kEquals {
-    flex: 2 1 auto;
-}
+
+
+
+
+
 
 
