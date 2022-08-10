@@ -57,7 +57,3 @@ js
     errors
         divide by 0
         equals before meaningful input
-
-
-
-
