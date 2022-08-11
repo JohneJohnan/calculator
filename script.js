@@ -59,9 +59,6 @@ const funcClicked = (e) => {
             else if (!/\./.test(display.value))
                 display.value += ".";
             break;
-        default:
-            console.log('"funcClicked" but no key is match!');
-            break;
     }
     if (display.value !== displayValueSave)
         previousKeyWasAnOperation = false;

@@ -54,25 +54,25 @@ body {
 }
 
 #calc {
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 4px;
-    padding: 0.4rem;
+    padding: 0.7rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 16rem;
-    height: 20rem;
+    width: 28rem;
+    height: 35rem;
     background-color: black;
 }
 
 #display {
-    width: 93.75%;
+    width: 96.5%;
     flex: 1 5 0;
-    margin-bottom: 4px;
+    margin-bottom: 0.35rem;
     border-style: none;
     padding: 0 0.5rem;
-    font-size: xx-large;
+    font-size: 3.7rem;
     text-align: end;
 }
 
@@ -80,20 +80,20 @@ body {
     flex: 5 1 0;
     display: flex;
     width: 100%;
-    gap: 2px;
+    gap: 4px;
 }
 
 .column {
     flex: 1 1 0;
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 4px;
 }
 
 button {
     flex: 1 1 0;
     border-style: none;
-    font-size: large;
+    font-size: 2rem;
 }
 
 #kEquals {
