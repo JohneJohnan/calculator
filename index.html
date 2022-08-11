@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -15,33 +16,33 @@
     </div>
     <div id="main">
         <div id="calc">
-            <input type="text" name="display" id="display">
+            <input type="text" name="display" id="display" maxlength="14" placeholder="0" readonly>
             <div id="keys">
                 <div class="column">
-                    <button id="kClear">C</button>
-                    <button id="k7">7</button>
-                    <button id="k4">4</button>
-                    <button id="k1">1</button>
-                    <button id="kToggleSign">+/-</button>
+                    <button class="func" id="kClear">C</button>
+                    <button class="digit" id="k7">7</button>
+                    <button class="digit" id="k4">4</button>
+                    <button class="digit" id="k1">1</button>
+                    <button class="func" id="kToggleSign">+/-</button>
                 </div>
                 <div class="column">
-                    <button id="kDivide">/</button>
-                    <button id="k8">8</button>
-                    <button id="k5">5</button>
-                    <button id="k2">2</button>
-                    <button id="k0">0</button>
+                    <button class="operator" id="kDivide">/</button>
+                    <button class="digit" id="k8">8</button>
+                    <button class="digit" id="k5">5</button>
+                    <button class="digit" id="k2">2</button>
+                    <button class="digit" id="k0">0</button>
                 </div>
                 <div class="column">
-                    <button id="kMultiply">*</button>
-                    <button id="k9">9</button>
-                    <button id="k6">6</button>
-                    <button id="k3">3</button>
-                    <button id="kDot">.</button>
+                    <button class="operator" id="kMultiply">*</button>
+                    <button class="digit" id="k9">9</button>
+                    <button class="digit" id="k6">6</button>
+                    <button class="digit" id="k3">3</button>
+                    <button class="func" id="kDot">.</button>
                 </div>
                 <div class="right column">
-                    <button id="kBackSpace">←</button>
-                    <button id="kSub">-</button>
-                    <button id="kAdd">+</button>
+                    <button class="func" id="kBackSpace">←</button>
+                    <button class="operator" id="kSub">-</button>
+                    <button class="operator" id="kAdd">+</button>
                     <button id="kEquals">=</button>
                 </div>
             </div>

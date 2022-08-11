@@ -24,7 +24,7 @@ js
         sub
         multiply
         divide
-        negative
+        reverseSign
         *
         pow
         mod
@@ -35,12 +35,13 @@ js
         percent
     
     operate / equals
+        
 
     functions / features
         clear
-        +
         floating point
         backspace
+        +
         keyboard
         priority
         parentheses

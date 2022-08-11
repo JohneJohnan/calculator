@@ -67,10 +67,13 @@ body {
 }
 
 #display {
-    width: 100%;
+    width: 93.75%;
     flex: 1 5 0;
     margin-bottom: 4px;
     border-style: none;
+    padding: 0 0.5rem;
+    font-size: xx-large;
+    text-align: end;
 }
 
 #keys {
@@ -97,24 +100,14 @@ button {
     flex: 2.04 0.5 0;
 }
 
-#k0, #k1, #k2, #k3, #k4, #k5, #k6, #k7, #k8, #k9 {
+.digit {
     background-color: var(--digitKeysBG);
     color: white;
 }
 
-#kClear, #kBackSpace, #kToggleSign, #kDot {
+.func,
+.operator,
+#kEquals {
     background-color: var(--funcKeysBG);
     color: white;
 }
-
-#kDivide, #kMultiply, #kAdd, #kSub, #kEquals {
-    background-color: var(--funcKeysBG);
-    color: white;
-}
-
-
-
-
-
-
-
